@@ -1,9 +1,9 @@
 [SHARESTRIPFILE_VERSION]2
 [SHAREDATA]
 {{
-["stripfn"]="FreqEcho.strip",
 ["ctls"]={2},
 ["gfx"]={3},
+["stripfn"]="FreqEcho.strip",
 },
 {
 [1]={4},
@@ -17,6 +17,13 @@
 [1]={10},
 },
 {
+["knbdata"]="{{\13\
+[\"fn\"]=\"lbx_knob64_smoothblack_white.png\",\13\
+[\"ctltype\"]=0,\13\
+[\"frames\"]=101,\13\
+[\"cellh\"]=64,\13\
+},\13\
+}",
 ["fn"]="lbx_knob64_smoothblack_white.png",
 ["bindata"]="‰PNG\13\
 \26\
@@ -1406,15 +1413,15 @@ iª\20î\3¼\31€³0ù|\30æççaii‰²Yš¦EâóÍFCşÚ+ñ\3&&&¸ƒ+€è\7 ¥\25¹\00927@1Amx%Ò|qêÔ)P
 ¥Ä\15ˆµ\3„\25\28\22P\16ßêØO\25èX¦\9[W¯ÂíÛ·97à•W^N§\19\9U\30‰\31€G\\MVUUZ„ˆù+\12hØÙœÈà†\25àà›†\1\5²\\wãÆ\13xíµ×¸\"üá\15\127€óçÏ³§şÁü\0]×#~€a\24´'\7ÁRìóµL“÷¾$\7[³åÓXâ)Ï~ã&\25åá\"½^\15vvvàÊ•+ğÊ+¯Àİ»wáwŞ×_\127\29}öYèt:Ïç\15ß\15\24\27ë÷ıëºNÏ†0\0129? X(€\25ã\7°S×q§;\0308ö\26ã\7˜¦\9W¯^…íímê\7t:\29øÓŸş\4wîÜgŸ}\22ÖÖÖàøñãÿU*•Î\31èàñG×õÍJ¥\18ñ\3TU¥~\0.šà^?ØANö\5ì_Ç\3ì\0œÉ¡§{µ\
 eÁ\0158yò$Üºu\11ºİ.}‘Â\27Şúú:|ñ‹_Äƒ?z?\0×\17‹Å\"hš\6š¦a\024099\9N\7lÛ¦¬%vœ”ŠEĞT\21ªš\6†®ƒÉì8©U*Ô\0Ïf2J$ =6\6¶mÃêê*Ü¸q\3VWWiÛ‹Ì\15˜šš‚ãÇ\31½\31ÀÆbğlP\20\5*•\
 U%&&&`ff\6&&&hÓ\18õ\3’ÑÍÔÉ\13\11\20E \8 ÛíÂc=\6ÛÛÛ°´´D_lÆÉ·LFı€ñññ\15\15Ü\31<ì\7ı\0\28g\15ò\3Êj_–ét:033\3+++°´´\4\11\11\11°¸¸\8sss°´´\4ËËË°¾¾\14W®\\ÍÍMØØØ KZh\7Ü÷~@2ÅM8Æú\0018ÛS¯×¡ÑhĞ3\4Ç\22¬\29ÀFé\31\8?@\22„–ù\1qvÀ(\7ŸûÎ\15Èår\7ò\3ØE\11ü$$ßø\3å\7Ä\21b/Ÿ\4¹Á=°~@6›}è\7ˆ~@6›ø\1äw\15ı€{ıóÿ\0«í\28áÉ$y­\0\0\0\0IEND®B`‚",
-["knbdata"]="{{\13\
-[\"fn\"]=\"lbx_knob64_smoothblack_white.png\",\13\
-[\"ctltype\"]=0,\13\
-[\"frames\"]=101,\13\
-[\"cellh\"]=64,\13\
-},\13\
-}",
 },
 {
+["knbdata"]="{{\13\
+[\"fn\"]=\"lbx_knob96_smoothblack_white.png\",\13\
+[\"ctltype\"]=0,\13\
+[\"frames\"]=101,\13\
+[\"cellh\"]=96,\13\
+},\13\
+}",
 ["fn"]="lbx_knob96_smoothblack_white.png",
 ["bindata"]="‰PNG\13\
 \26\
@@ -4854,15 +4861,15 @@ o\1«µI\3/\21Ô7ğyeY¡\\Z˜Vã©H²§ºœ’ßÏ„ \25È«««p×]wñJ9Ñ\9\16\23!ä‡š¦µS\9p]×\8ÃğéR©” 
 $/S4MXYY;î¸\3>ò‘ÀÆÆ\6Ø¶Íãú²«Y(\20`wwWÜùàûşµL&sk$\16\11…ÂIÛ¶Ÿ3\12#ad“dš&\31lgY\22„a\8\11\11\011033Ã3ll\"9#ƒ\21\4\24†\1®egÛà»îá\18\14Sfî\\:Hµ7F²7/B×4˜\16ª%X,ëÈ‘#°³³\3wß½\11§Nâ\21\31l×³‹'’ÜLÓ4a}}\29:ÎëÕjõ9Œqç—\14¼ğŒçóùw[–õ/L«E&A”’\18‰p\28»7Ğ»ÕâÕnl\14'Kn°\0ßøØ\24dÆÇy+¨®i=\0131š\0g;U\20\5å%*ccPÈçÁ§qœÍÍM¸óÎ;aww\23N<\9Íf³×HAÁ\31tÁB”Ä(Š V«ıÒÍNÚ3®iÚt©TúŠ\4q”o6›åó}Ø²,\11<Ï‡©©)X]]…¥¥%˜››ãõ¨ÌEÌSMá4`p\11-\22‹à8\14LNNÂ‘#G`kk\11NŸ>\13çÎƒ\29XYY\1Ïóx\23##1-¨†\4?Ÿ\22ˆ}ŸN¾ºåà‹S,\22ÿÒ0ŒŸ¦‰/3³”Ëå X,B©Tâ«X*ò\\Ãââbb*\
 #fvv6Ñ\005955\5óóó¼¥iuu\021677¹dÖéÓ§áÎ;ï„S§NA·ÛM\20MÉÀ«Ì\13B}7Üët\8ë¯¦š\30B¨”Ïç?Y(\20^`7f‘€±ñÃ\18mŒ1d³Y®\9&/¦¦Úh4`zz\26æççayy\25:\14\28;v\12\29;\6İn\23¶··áÄ‰\19°±±Á\7K­¯¯Ã\"•Adw\16QòV\6~”·Š\16r\17cü;\8!çÖÁ;Ú3‘Ïç—r¹Üßkšöšh’äF\5ñ­`d\24†Ñ·Ø¿gæ‹Íè´,‹\31ºlX\30û<Ó\29fK—Î‹A¦\6%w=\16Bş™Ævn¹rŞÍ<†®ë\15išöŸ„×&&’3•ÓÈĞ4\
 tæ¸H'SÏ\19ÿÌV.—K,\25p\25ôa»\29!.äóš¦i—0Æ\15 _39ÛÄC\8YÄ\24\127\30c|À„\14ÒHH\0182–\8s0\15E¶á¢Ï.ÆèÙ}D|óĞ\8;şÿ.cŒ\31\31eÒí¯Ë“C\8-\16B¾F\8ùÙ›QI}3\11\13ñnhóÜW¨oŸ½up½}Ïx&“Ù „|KÓ´=BÈ„ßş¶\0190–\0?¯ÒÔá×\17BéCUÿ·=„eŒñï\18BşŠ\16ò‚,\19øVƒ/Ç«\8!\23\9!\127¡iÚı\24ãõ[Ç­zÆPo–ò$Æø75Mû&!ä\26\11€½\25BÄ›8\11-`Œ¯išöMŒñG\17B“¨—2ü•ºLı*<$“Él\19B\30Ö4íï\8!ÿ¦iÚóš¦]\"„ü\24c|\16r\3c|\3cü\11ŒñëôŸ\127JÿÛ+š¦]Ñ4íûô»ß!„<œÉd¶\17BäVÿ¸_·g\12õ²Ks\24ã.!ä.BÈyŒñ'0ÆŸ „ü>!ä\15èŸ?J\0089O\0089KÁnÑïŞ\\EÚÿ?ÿ·ÿ\1;v¦Y{Ò|\0\0\0\0IEND®B`‚",
-["knbdata"]="{{\13\
-[\"fn\"]=\"lbx_knob96_smoothblack_white.png\",\13\
-[\"ctltype\"]=0,\13\
-[\"frames\"]=101,\13\
-[\"cellh\"]=96,\13\
-},\13\
-}",
 },
 {
+["knbdata"]="{{\13\
+[\"ctltype\"]=2,\13\
+[\"fn\"]=\"TimbSM17_Switches04.png\",\13\
+[\"cellh\"]=44,\13\
+[\"frames\"]=2,\13\
+},\13\
+}",
 ["fn"]="TimbSM17_Switches04.png",
 ["bindata"]="‰PNG\13\
 \26\
@@ -4873,22 +4880,8 @@ tæ¸H'SÏ\19ÿÌV.—K,\25p\25ôa»\29!.äóš¦i—0Æ\15 _39ÛÄC\8YÄ\24\127\30c|À„\14ÒHH\0182–
 ƒƒƒìììN§\15ˆ×İÎââ\"‰D‚¾¾>N<\0250Y¨†\17lù\12¬V«f·ÛÉd2loo“Éd\14X¨\\.‡¢(hšF6›Åív#Ër}G^2íòª-#xüøñ†Çãavv\22]×Q\20å?Ä\19‰\4~¿Ÿ@ €Õjåıû÷)\0018ÒBI\15\31>”dYfuu•|>¦iÈ²Ü\16ßÚÚ\"—ËQ,\22‰D\"Ü»wjµjk\18·\28\
 \0¤×¯_S,\22I&“8N¼^/ªª¢ª*^¯—‘‘\17\30<xÀÚÚ\26óóó˜¶•\22ó&­…Òûûû™šš\"\24\12¢ª*Š¢P*•ğù|„Ãa^¾|Éıû÷Ñ4\13à†0!IaBÔ£,Ô~ıÜÅ‹\23\25\31\31gxx\24‡ÃA*•\"\26òæÍ\27ó¥\1270\1\20a^*í,T©Ëºù[!¾#ÌÈ>P±´1 İ¶\12\19F¥Ò‰\1é¶íˆ´tl¡ºmši‚5L‰¥M\4\127ïBü¹éÏ¨ê\1ûÕfE\11\31â^Zõß\11k{`’\29\5\24\0Şu şOà¸H·µi¢\29¹&\15\29\1y\7ü¼IXêzÑ\7¾\5™„Ÿ\1AÓ_\
 R\11ïÖÑ¢\127èf¡Ó×ºçÑz€\30à§\0ø÷\0­W‹ «¬\1{\0\0\0\0IEND®B`‚",
-["knbdata"]="{{\13\
-[\"ctltype\"]=2,\13\
-[\"fn\"]=\"TimbSM17_Switches04.png\",\13\
-[\"cellh\"]=44,\13\
-[\"frames\"]=2,\13\
-},\13\
-}",
 },
 {
-["fn"]="Concerto-OnOff16x.png",
-["bindata"]="‰PNG\13\
-\26\
-\0\0\0\13IHDR\0\0\0\16\0\0\0 \8\6\0\0\0\27‰øÌ\0\0\0\9pHYs\0\0\14Ä\0\0\14Ä\1•+\14\27\0\0\0 cHRM\0\0z%\0\0€ƒ\0\0ùÿ\0\0€é\0\0u0\0\0ê`\0\0:˜\0\0\23o’_ÅF\0\0\4\21IDATxÚ¤”ÍoTU\24Æ\127ï9çŞ™Î7\19h¡P\26)¥vX\18\"$ b4®0q\9\11ø\23LÜ¸5aã\31\1‰n\\˜èÎ\16Åà‚@ˆ\16\18Ki+\24,4-\31ı˜a:{Ï=ÇÅ\29f¦€\27¸«›{ßó¼ÏyŞç}äËc\31zŞâ1\0??šï~pŞ\19;‡õÏw\0ğÓÃyŒ\8R(‘ní©#¨~´Ø9D„Ér…@)vçòìÎå\9”b²\\ADˆ{•\1@ì\29%\0190Y®°§P`~½Ésk\1È\27ÃÁ-U*AÈt}•º\9$í­\0\28 E1Q*slÛ -—¤l\0é0k¹„cÛ\6™(–Ñ¢pı\12â$a¢Tf¬X`®ÙàòÒ\"õ8Æ¨´K=¹¼´\8C°§P`5˜©¯õ\24Xï\24Éå©†\25fëuZÖâ¼'§59­qŞÓ²–Ùzj&ÃH>õ®Ç ñP\13C´(æ\26î½\127\127¼Ø}\7˜k489´ƒj\24’ø—D|ù\9µæöêJ\7 Àû]¤¯N\1h•(\"ññb‘”•#§\0139mH:tÇ‹Eœw,G\17Zú\0Œ(æ×›¬Dmö•J\12\24ƒêë£\16\6Œa_©Ä³v›\127›MLgŒ\6 ĞšûÍç”ƒãƒC0\4³õ:\127wôØ[,²¯Tbo¾È•ÇKÜo>'Ğº\7 :Fº[_\3±B‘ãƒÛ99´ƒtJ•¨Í•'KÌ4ÖH¼ë\26©+b Š†¹¹òŒµ(bW.O5\19\2°Üx¸Şä^³Aâ<R¯Z\25 P\
-ç=w\27küµ¶JÒQ^‹`”\16ˆÚt¸\11pjçÈ\27¯³lÿá›·Ïƒü×\23é\11\4d#B\"ËúW_\0ûöG|hğÙ\16To¼Íóg7ç\1\27mÀ\19\31­áCMR\27%©âCM|´\6øNÍkò@Ú1nk…øh\13ûŞ^ÌÔ\3d%õ¯\20ˆ>{\0317X!¸:zº†Ï\4='â<Ş(â#5Ú§O \22\18[\16\1\17$¶H£Eûô\9â\15&ñFó=\6Òj\19\31©a\15anÌ’½p\9yÒèv‘'\13²\23.±\1Ø\3c¨Åg\4×fú\24D–¤6Š\27®b®O#\22$\22_ÎãËyHR\6æú]’á\
-ÉşQ$Jú\24$\0147\\…À`nÌ\8¾œ'{ñRªA9\15\"é¿sŸà†·B'/ÿ7\15ü@HğÛí\14@\14^¸EdS\2ğZ¡\22–!¶ØCã˜Nğ¥\28¾”ƒ8¥k\15C\20£\22B'¥R\13Bƒ¾ó\0µ°Œ=<‰/dÁè¾ak|!‹=ü.úÑ2zê\1>ì[g?ÁÜœÃ\13m¡}æ#6\0s}:½s§³=<‰=4AæûË˜[÷RWv5P‚´\29ÁÕ;à\29öÀ\30Úg>fãÜ§éµã\4õğ1™ï~%¸6ƒX‡ÏèÍ\"úL€<]%üåOÔÒ\
-ÉşwÒÉ\0ja\25=õ\15æÖ}ˆc|6óú< ›\1ç\9®Í\16ü1…ØT<o4¼X¦¾Ã]€æù³o¼Îÿ\13\0Œã»­6ë>”\0\0\0\0IEND®B`‚",
 ["knbdata"]="{{\13\
 [\"ctltype\"]=2,\13\
 [\"frames\"]=2,\13\
@@ -4896,8 +4889,21 @@ R\11ïÖÑ¢\127èf¡Ó×ºçÑz€\30à§\0ø÷\0­W‹ «¬\1{\0\0\0\0IEND®B`‚",
 [\"cellh\"]=16,\13\
 },\13\
 }",
+["fn"]="Concerto-OnOff16x.png",
+["bindata"]="‰PNG\13\
+\26\
+\0\0\0\13IHDR\0\0\0\16\0\0\0 \8\6\0\0\0\27‰øÌ\0\0\0\9pHYs\0\0\14Ä\0\0\14Ä\1•+\14\27\0\0\0 cHRM\0\0z%\0\0€ƒ\0\0ùÿ\0\0€é\0\0u0\0\0ê`\0\0:˜\0\0\23o’_ÅF\0\0\4\21IDATxÚ¤”ÍoTU\24Æ\127ï9çŞ™Î7\19h¡P\26)¥vX\18\"$ b4®0q\9\11ø\23LÜ¸5aã\31\1‰n\\˜èÎ\16Åà‚@ˆ\16\18Ki+\24,4-\31ı˜a:{Ï=ÇÅ\29f¦€\27¸«›{ßó¼ÏyŞç}äËc\31zŞâ1\0??šï~pŞ\19;‡õÏw\0ğÓÃyŒ\8R(‘ní©#¨~´Ø9D„Ér…@)vçòìÎå\9”b²\\ADˆ{•\1@ì\29%\0190Y®°§P`~½Ésk\1È\27ÃÁ-U*AÈt}•º\9$í­\0\28 E1Q*slÛ -—¤l\0é0k¹„cÛ\6™(–Ñ¢pı\12â$a¢Tf¬X`®ÙàòÒ\"õ8Æ¨´K=¹¼´\8C°§P`5˜©¯õ\24Xï\24Éå©†\25fëuZÖâ¼'§59­qŞÓ²–Ùzj&ÃH>õ®Ç ñP\13C´(æ\26î½\127\127¼Ø}\7˜k489´ƒj\24’ø—D|ù\9µæöêJ\7 Àû]¤¯N\1h•(\"ññb‘”•#§\0139mH:tÇ‹Eœw,G\17Zú\0Œ(æ×›¬Dmö•J\12\24ƒêë£\16\6Œa_©Ä³v›\127›MLgŒ\6 ĞšûÍç”ƒãƒC0\4³õ:\127wôØ[,²¯Tbo¾È•ÇKÜo>'Ğº\7 :Fº[_\3±B‘ãƒÛ99´ƒtJ•¨Í•'KÌ4ÖH¼ë\26©+b Š†¹¹òŒµ(bW.O5\19\2°Üx¸Şä^³Aâ<R¯Z\25 P\
+ç=w\27küµ¶JÒQ^‹`”\16ˆÚt¸\11pjçÈ\27¯³lÿá›·Ïƒü×\23é\11\4d#B\"ËúW_\0ûöG|hğÙ\16To¼Íóg7ç\1\27mÀ\19\31­áCMR\27%©âCM|´\6øNÍkò@Ú1nk…øh\13ûŞ^ÌÔ\3d%õ¯\20ˆ>{\0317X!¸:zº†Ï\4='â<Ş(â#5Ú§O \22\18[\16\1\17$¶H£Eûô\9â\15&ñFó=\6Òj\19\31©a\15anÌ’½p\9yÒèv‘'\13²\23.±\1Ø\3c¨Åg\4×fú\24D–¤6Š\27®b®O#\22$\22_ÎãËyHR\6æú]’á\
+ÉşQ$Jú\24$\0147\\…À`nÌ\8¾œ'{ñRªA9\15\"é¿sŸà†·B'/ÿ7\15ü@HğÛí\14@\14^¸EdS\2ğZ¡\22–!¶ØCã˜Nğ¥\28¾”ƒ8¥k\15C\20£\22B'¥R\13Bƒ¾ó\0µ°Œ=<‰/dÁè¾ak|!‹=ü.úÑ2zê\1>ì[g?ÁÜœÃ\13m¡}æ#6\0s}:½s§³=<‰=4AæûË˜[÷RWv5P‚´\29ÁÕ;à\29öÀ\30Úg>fãÜ§éµã\4õğ1™ï~%¸6ƒX‡ÏèÍ\"úL€<]%üåOÔÒ\
+ÉşwÒÉ\0ja\25=õ\15æÖ}ˆc|6óú< ›\1ç\9®Í\16ü1…ØT<o4¼X¦¾Ã]€æù³o¼Îÿ\13\0Œã»­6ë>”\0\0\0\0IEND®B`‚",
 },
 {
+["knbdata"]="{{\13\
+[\"frames\"]=1,\13\
+[\"cellh\"]=16,\13\
+[\"fn\"]=\"SimpleBox_4816.png\",\13\
+},\13\
+}",
 ["fn"]="SimpleBox_4816.png",
 ["bindata"]="‰PNG\13\
 \26\
@@ -4905,26 +4911,20 @@ R\11ïÖÑ¢\127èf¡Ó×ºçÑz€\30à§\0ø÷\0­W‹ «¬\1{\0\0\0\0IEND®B`‚",
 Äÿ‡\8\6¹µ„\1Éñÿå””ß+«iü\31\
 \24äV¨GJ@\30x\
 \18Ğ50ş?”0Ô\19OA\30\0ûj¨y\0äfÛG=0êQ\15Œz`Ô\3£\30\24ò\30\24òM‰¡İ˜\27êÍi\0Qzsaÿí&™\0\0\0\0IEND®B`‚",
-["knbdata"]="{{\13\
-[\"frames\"]=1,\13\
-[\"cellh\"]=16,\13\
-[\"fn\"]=\"SimpleBox_4816.png\",\13\
-},\13\
-}",
 },
 {
-["fn"]="SimpleBox_6424.png",
-["bindata"]="‰PNG\13\
-\26\
-\0\0\0\13IHDR\0\0\0@\0\0\0\24\8\6\0\0\0J´ûD\0\0\0™IDATxÚíØA\
-€ \16\5Ğ¹E‹\"ˆ\22Q\20\5À\27y4\15çŞ\28qÀM\23ğ\127áolõ_\0264\"u\13ãärBNÌI&ÖNÚ•7|Ç¥ÿâÛ7_6çeMÛq¥ı¼»ŒvÓ\13‚“z$Êƒëy!Ò \4±;¯:(\0ÚÕ¾\9bÇA\8\
-€vµŞ\4 \0\1\8@\0\2\16€\0\4 \0\1\8\0\11\0ÿ;\12?\16Á\30‰Á\15EÑÇâ\31ÚïßÙ­H\15Ù\0\0\0\0IEND®B`‚",
 ["knbdata"]="{{\13\
 [\"frames\"]=1,\13\
 [\"cellh\"]=24,\13\
 [\"fn\"]=\"SimpleBox_6424.png\",\13\
 },\13\
 }",
+["fn"]="SimpleBox_6424.png",
+["bindata"]="‰PNG\13\
+\26\
+\0\0\0\13IHDR\0\0\0@\0\0\0\24\8\6\0\0\0J´ûD\0\0\0™IDATxÚíØA\
+€ \16\5Ğ¹E‹\"ˆ\22Q\20\5À\27y4\15çŞ\28qÀM\23ğ\127áolõ_\0264\"u\13ãärBNÌI&ÖNÚ•7|Ç¥ÿâÛ7_6çeMÛq¥ı¼»ŒvÓ\13‚“z$Êƒëy!Ò \4±;¯:(\0ÚÕ¾\9bÇA\8\
+€vµŞ\4 \0\1\8@\0\2\16€\0\4 \0\1\8\0\11\0ÿ;\12?\16Á\30‰Á\15EÑÇâ\31ÚïßÙ­H\15Ù\0\0\0\0IEND®B`‚",
 },
 {
 ["fn"]="SC-Bg_02.png",
@@ -5167,31 +5167,31 @@ V\30\14÷Şyg¸sç/q¹\12¤}hñOÆyû™vş¾üy\24¿ÂÎasî¡eÇÃĞ_ìïşâûá¢ÿø8ŒÿË1û}O†á¥6ş¬8\31f,;\
 [1]={5},
 },
 {
+["fxguid"]="335A5277-00F7-4C69-AD5A-62F5FA4C8B77",
 ["fxenabled"]=true,
-["fxguid"]="BC135C85-D757-4C42-912E-1A157B03D119",
 ["fxchunk"]="BYPASS 0 0 0\
 <VST \"VST: ValhallaFreqEcho (Valhalla DSP, LLC)\" ValhallaFreqEcho.dll 0 \"VST: FreqEcho\" 1181828456\
-aEVxRu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAACAEAAAEAAAAAABAA\
-VkMyIf8AAAA8TVlQTFVHSU5TRVRUSU5HUyBwbHVnaW5WZXJzaW9uPSIxIiB3ZXREcnlNaXg9IjAuNSIgc2hpZnQ9IjAuNTAwMDc0OTgyNjQzMTI3NDQiIGRlbGF5PSIwLjAwMDk5MDAwOTg2NjY1NDg3Mjg5IiBzeW5jPSIwLjA1MTg5NjU0OTc2MTI5NTMxOSIgZmVlZGJhY2s9IjAuNSIgbG93Q3V0PSIwLjA2MDQwMjY4MzkxMzcwNzczMyIgaGlnaEN1dD0iMC4zMzExMDM2\
-ODI1MTgwMDUzNyIgc3RlcmVvPSIxIiB1aVdpZHRoPSI1MzAiIHVpSGVpZ2h0PSIyNjAiLz4A\
+aEVxRu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAA9QAAAAEAAAAAABAA\
+VkMyIewAAAA8TVlQTFVHSU5TRVRUSU5HUyBwbHVnaW5WZXJzaW9uPSIxIiB3ZXREcnlNaXg9IjAuNSIgc2hpZnQ9IjAuNTAwMDc0OTgyNjQzMTI3NDQiIGRlbGF5PSIwLjAwMDk5MDAwOTg2NjY1NDg3Mjg5IiBzeW5jPSIwIiBmZWVkYmFjaz0iMC41IiBsb3dDdXQ9IjAuMDYwNDAyNjgzOTEzNzA3NzMzIiBoaWdoQ3V0PSIwLjMzMTEwMzY4MjUxODAwNTM3IiBzdGVyZW89\
+IjEiIHVpV2lkdGg9IjUzMCIgdWlIZWlnaHQ9IjI2MCIvPgA=\
 AAAQAAAA\
 >\
-FLOATPOS 38 405 546 326\
-FXID {BC135C85-D757-4C42-912E-1A157B03D119}\
+FLOATPOS -1900 56 546 326\
+FXID {335A5277-00F7-4C69-AD5A-62F5FA4C8B77}\
 PARM_TCP 2 1 4 5 6 3\
 WAK 0",
 },
 }
 [\FXDATA]
 [STRIPDATA]
-[surface_x]13.0
+[surface_x]0.0
 [surface_y]0.0
 [controls_count]10
 [graphics_count]2
-[c_1_cid]9961471
+[c_1_cid]762970111
 [c_1_fxname]VST: FreqEcho
-[c_1_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_1_fxnum]3
+[c_1_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_1_fxnum]0
 [c_1_fxfound]true
 [c_1_param]0
 [c_1_param_info_name]wetDry
@@ -5205,10 +5205,10 @@ WAK 0",
 [c_1_knob_select]119
 [c_1_ctl_info_fn]lbx_knob64_smoothblack_white.png
 [c_1_ctl_info_frames]101
-[c_1_ctl_info_imageidx]3
+[c_1_ctl_info_imageidx]2
 [c_1_ctl_info_cellh]64
-[c_1_x]192
-[c_1_y]168
+[c_1_x]24.0
+[c_1_y]40.0
 [c_1_w]64.0
 [c_1_scale]0.86
 [c_1_show_paramname]true
@@ -5224,7 +5224,7 @@ WAK 0",
 [c_1_textsizev]1.5
 [c_1_font]Calibri
 [c_1_val]0.5
-[c_1_mval]0.60003516174402
+[c_1_mval]1.0
 [c_1_defval]1.0
 [c_1_maxdp]0
 [c_1_dvaloffset]0
@@ -5246,8 +5246,8 @@ WAK 0",
 [c_1_bypassbg_n]false
 [c_1_bypassbg_v]false
 [c_1_clickthrough]false
-[c_1_id]2819227647
-[c_1_grpid]4167696383
+[c_1_id]385482751
+[c_1_grpid]923009023
 [c_1_ctlcat]0
 [c_1_tracknum]
 [c_1_trackguid]
@@ -5281,10 +5281,10 @@ WAK 0",
 [c_1_rcmdata_cnt]0
 [c_1_macroctl_cnt]0
 [c_1_eqband_cnt]0
-[c_2_cid]1527644159
+[c_2_cid]4189454335
 [c_2_fxname]VST: FreqEcho
-[c_2_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_2_fxnum]3
+[c_2_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_2_fxnum]0
 [c_2_fxfound]true
 [c_2_param]2
 [c_2_param_info_name]delay
@@ -5298,10 +5298,10 @@ WAK 0",
 [c_2_knob_select]119
 [c_2_ctl_info_fn]lbx_knob64_smoothblack_white.png
 [c_2_ctl_info_frames]101
-[c_2_ctl_info_imageidx]3
+[c_2_ctl_info_imageidx]2
 [c_2_ctl_info_cellh]64
-[c_2_x]256.0
-[c_2_y]168.0
+[c_2_x]88.0
+[c_2_y]40.0
 [c_2_w]64.0
 [c_2_scale]0.86
 [c_2_show_paramname]true
@@ -5317,7 +5317,7 @@ WAK 0",
 [c_2_textsizev]1.5
 [c_2_font]Calibri
 [c_2_val]0.00099000986665487
-[c_2_mval]0.69076655224573
+[c_2_mval]0.59563994374121
 [c_2_defval]0.84502923488617
 [c_2_maxdp]3
 [c_2_dvaloffset]0
@@ -5339,8 +5339,8 @@ WAK 0",
 [c_2_bypassbg_n]false
 [c_2_bypassbg_v]false
 [c_2_clickthrough]false
-[c_2_id]2819227647
-[c_2_grpid]4167696383
+[c_2_id]385482751
+[c_2_grpid]923009023
 [c_2_ctlcat]0
 [c_2_tracknum]
 [c_2_trackguid]
@@ -5374,10 +5374,10 @@ WAK 0",
 [c_2_rcmdata_cnt]0
 [c_2_macroctl_cnt]0
 [c_2_eqband_cnt]0
-[c_3_cid]1443364863
+[c_3_cid]3959554047
 [c_3_fxname]VST: FreqEcho
-[c_3_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_3_fxnum]3
+[c_3_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_3_fxnum]0
 [c_3_fxfound]true
 [c_3_param]1
 [c_3_param_info_name]shift
@@ -5391,10 +5391,10 @@ WAK 0",
 [c_3_knob_select]124
 [c_3_ctl_info_fn]lbx_knob96_smoothblack_white.png
 [c_3_ctl_info_frames]101
-[c_3_ctl_info_imageidx]4
+[c_3_ctl_info_imageidx]46
 [c_3_ctl_info_cellh]96
-[c_3_x]320
-[c_3_y]168
+[c_3_x]152.0
+[c_3_y]40.0
 [c_3_w]96.0
 [c_3_scale]0.86
 [c_3_show_paramname]true
@@ -5432,8 +5432,8 @@ WAK 0",
 [c_3_bypassbg_n]false
 [c_3_bypassbg_v]false
 [c_3_clickthrough]false
-[c_3_id]2819227647
-[c_3_grpid]4167696383
+[c_3_id]385482751
+[c_3_grpid]923009023
 [c_3_ctlcat]0
 [c_3_tracknum]
 [c_3_trackguid]
@@ -5467,10 +5467,10 @@ WAK 0",
 [c_3_rcmdata_cnt]0
 [c_3_macroctl_cnt]0
 [c_3_eqband_cnt]0
-[c_4_cid]2615672831
+[c_4_cid]1585184767
 [c_4_fxname]VST: FreqEcho
-[c_4_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_4_fxnum]3
+[c_4_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_4_fxnum]0
 [c_4_fxfound]true
 [c_4_param]4
 [c_4_param_info_name]feedback
@@ -5484,10 +5484,10 @@ WAK 0",
 [c_4_knob_select]119
 [c_4_ctl_info_fn]lbx_knob64_smoothblack_white.png
 [c_4_ctl_info_frames]101
-[c_4_ctl_info_imageidx]3
+[c_4_ctl_info_imageidx]2
 [c_4_ctl_info_cellh]64
-[c_4_x]416
-[c_4_y]176
+[c_4_x]248.0
+[c_4_y]48.0
 [c_4_w]64.0
 [c_4_scale]0.86
 [c_4_show_paramname]true
@@ -5525,8 +5525,8 @@ WAK 0",
 [c_4_bypassbg_n]false
 [c_4_bypassbg_v]false
 [c_4_clickthrough]false
-[c_4_id]2819227647
-[c_4_grpid]4167696383
+[c_4_id]385482751
+[c_4_grpid]923009023
 [c_4_ctlcat]0
 [c_4_tracknum]
 [c_4_trackguid]
@@ -5560,10 +5560,10 @@ WAK 0",
 [c_4_rcmdata_cnt]0
 [c_4_macroctl_cnt]0
 [c_4_eqband_cnt]0
-[c_5_cid]2755788799
+[c_5_cid]3218079743
 [c_5_fxname]VST: FreqEcho
-[c_5_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_5_fxnum]3
+[c_5_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_5_fxnum]0
 [c_5_fxfound]true
 [c_5_param]5
 [c_5_param_info_name]lowCut
@@ -5577,10 +5577,10 @@ WAK 0",
 [c_5_knob_select]119
 [c_5_ctl_info_fn]lbx_knob64_smoothblack_white.png
 [c_5_ctl_info_frames]101
-[c_5_ctl_info_imageidx]3
+[c_5_ctl_info_imageidx]2
 [c_5_ctl_info_cellh]64
-[c_5_x]480.0
-[c_5_y]176.0
+[c_5_x]312.0
+[c_5_y]48.0
 [c_5_w]64.0
 [c_5_scale]0.86
 [c_5_show_paramname]true
@@ -5618,8 +5618,8 @@ WAK 0",
 [c_5_bypassbg_n]false
 [c_5_bypassbg_v]false
 [c_5_clickthrough]false
-[c_5_id]2819227647
-[c_5_grpid]4167696383
+[c_5_id]385482751
+[c_5_grpid]923009023
 [c_5_ctlcat]0
 [c_5_tracknum]
 [c_5_trackguid]
@@ -5653,10 +5653,10 @@ WAK 0",
 [c_5_rcmdata_cnt]0
 [c_5_macroctl_cnt]0
 [c_5_eqband_cnt]0
-[c_6_cid]35520511
+[c_6_cid]854720511
 [c_6_fxname]VST: FreqEcho
-[c_6_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_6_fxnum]3
+[c_6_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_6_fxnum]0
 [c_6_fxfound]true
 [c_6_param]6
 [c_6_param_info_name]highCut
@@ -5670,10 +5670,10 @@ WAK 0",
 [c_6_knob_select]119
 [c_6_ctl_info_fn]lbx_knob64_smoothblack_white.png
 [c_6_ctl_info_frames]101
-[c_6_ctl_info_imageidx]3
+[c_6_ctl_info_imageidx]2
 [c_6_ctl_info_cellh]64
-[c_6_x]544.0
-[c_6_y]176.0
+[c_6_x]376.0
+[c_6_y]48.0
 [c_6_w]64.0
 [c_6_scale]0.86
 [c_6_show_paramname]true
@@ -5711,8 +5711,8 @@ WAK 0",
 [c_6_bypassbg_n]false
 [c_6_bypassbg_v]false
 [c_6_clickthrough]false
-[c_6_id]2819227647
-[c_6_grpid]4167696383
+[c_6_id]385482751
+[c_6_grpid]923009023
 [c_6_ctlcat]0
 [c_6_tracknum]
 [c_6_trackguid]
@@ -5746,10 +5746,10 @@ WAK 0",
 [c_6_rcmdata_cnt]0
 [c_6_macroctl_cnt]0
 [c_6_eqband_cnt]0
-[c_7_cid]4112908287
+[c_7_cid]1343356927
 [c_7_fxname]VST: FreqEcho
-[c_7_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_7_fxnum]3
+[c_7_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_7_fxnum]0
 [c_7_fxfound]true
 [c_7_param]7
 [c_7_param_info_name]stereo
@@ -5763,10 +5763,10 @@ WAK 0",
 [c_7_knob_select]695
 [c_7_ctl_info_fn]TimbSM17_Switches04.png
 [c_7_ctl_info_frames]2
-[c_7_ctl_info_imageidx]5
+[c_7_ctl_info_imageidx]47
 [c_7_ctl_info_cellh]44
-[c_7_x]536
-[c_7_y]248
+[c_7_x]368.0
+[c_7_y]120.0
 [c_7_w]24.0
 [c_7_scale]0.86
 [c_7_show_paramname]false
@@ -5804,8 +5804,8 @@ WAK 0",
 [c_7_bypassbg_n]false
 [c_7_bypassbg_v]false
 [c_7_clickthrough]false
-[c_7_id]2819227647
-[c_7_grpid]4167696383
+[c_7_id]385482751
+[c_7_grpid]923009023
 [c_7_ctlcat]0
 [c_7_tracknum]
 [c_7_trackguid]
@@ -5839,10 +5839,10 @@ WAK 0",
 [c_7_rcmdata_cnt]0
 [c_7_macroctl_cnt]0
 [c_7_eqband_cnt]0
-[c_8_cid]572391423
+[c_8_cid]1635778559
 [c_8_fxname]VST: FreqEcho
-[c_8_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_8_fxnum]3
+[c_8_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_8_fxnum]0
 [c_8_fxfound]true
 [c_8_param]8
 [c_8_param_info_name]Bypass
@@ -5856,10 +5856,10 @@ WAK 0",
 [c_8_knob_select]10
 [c_8_ctl_info_fn]Concerto-OnOff16x.png
 [c_8_ctl_info_frames]2
-[c_8_ctl_info_imageidx]42
+[c_8_ctl_info_imageidx]48
 [c_8_ctl_info_cellh]16
-[c_8_x]592
-[c_8_y]136
+[c_8_x]424.0
+[c_8_y]8.0
 [c_8_w]16.0
 [c_8_scale]1
 [c_8_show_paramname]false
@@ -5897,8 +5897,8 @@ WAK 0",
 [c_8_bypassbg_n]false
 [c_8_bypassbg_v]false
 [c_8_clickthrough]false
-[c_8_id]2819227647
-[c_8_grpid]4167696383
+[c_8_id]385482751
+[c_8_grpid]923009023
 [c_8_ctlcat]0
 [c_8_tracknum]
 [c_8_trackguid]
@@ -5932,10 +5932,10 @@ WAK 0",
 [c_8_rcmdata_cnt]0
 [c_8_macroctl_cnt]0
 [c_8_eqband_cnt]0
-[c_9_cid]2237530111
+[c_9_cid]230293503
 [c_9_fxname]VST: FreqEcho
-[c_9_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_9_fxnum]3
+[c_9_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_9_fxnum]0
 [c_9_fxfound]true
 [c_9_param]11
 [c_9_param_info_name]Open GUI
@@ -5949,10 +5949,10 @@ WAK 0",
 [c_9_knob_select]235
 [c_9_ctl_info_fn]SimpleBox_4816.png
 [c_9_ctl_info_frames]1
-[c_9_ctl_info_imageidx]18
+[c_9_ctl_info_imageidx]49
 [c_9_ctl_info_cellh]16
-[c_9_x]528
-[c_9_y]136
+[c_9_x]360.0
+[c_9_y]8.0
 [c_9_w]48.0
 [c_9_scale]1
 [c_9_show_paramname]true
@@ -5990,8 +5990,8 @@ WAK 0",
 [c_9_bypassbg_n]false
 [c_9_bypassbg_v]false
 [c_9_clickthrough]false
-[c_9_id]2819227647
-[c_9_grpid]4167696383
+[c_9_id]385482751
+[c_9_grpid]923009023
 [c_9_ctlcat]14
 [c_9_tracknum]
 [c_9_trackguid]
@@ -6025,10 +6025,10 @@ WAK 0",
 [c_9_rcmdata_cnt]0
 [c_9_macroctl_cnt]0
 [c_9_eqband_cnt]0
-[c_10_cid]672006143
+[c_10_cid]2531000319
 [c_10_fxname]VST: FreqEcho
-[c_10_fxguid]{BC135C85-D757-4C42-912E-1A157B03D119}
-[c_10_fxnum]3
+[c_10_fxguid]{335A5277-00F7-4C69-AD5A-62F5FA4C8B77}
+[c_10_fxnum]0
 [c_10_fxfound]true
 [c_10_param]3
 [c_10_param_info_name]sync
@@ -6042,10 +6042,10 @@ WAK 0",
 [c_10_knob_select]236
 [c_10_ctl_info_fn]SimpleBox_6424.png
 [c_10_ctl_info_frames]1
-[c_10_ctl_info_imageidx]7
+[c_10_ctl_info_imageidx]45
 [c_10_ctl_info_cellh]24
-[c_10_x]256
-[c_10_y]256
+[c_10_x]88
+[c_10_y]128
 [c_10_w]64.0
 [c_10_scale]0.86
 [c_10_show_paramname]true
@@ -6060,8 +6060,8 @@ WAK 0",
 [c_10_textsize]3.8333333333333
 [c_10_textsizev]1.5
 [c_10_font]Calibri
-[c_10_val]0.051896549761295
-[c_10_mval]0.051896549761295
+[c_10_val]0.0
+[c_10_mval]0.0
 [c_10_defval]0.21999999880791
 [c_10_maxdp]-1
 [c_10_dvaloffset]0
@@ -6083,8 +6083,8 @@ WAK 0",
 [c_10_bypassbg_n]false
 [c_10_bypassbg_v]false
 [c_10_clickthrough]false
-[c_10_id]2819227647
-[c_10_grpid]4167696383
+[c_10_id]385482751
+[c_10_grpid]923009023
 [c_10_ctlcat]0
 [c_10_tracknum]
 [c_10_trackguid]
@@ -6105,9 +6105,9 @@ WAK 0",
 [c_10_cycledata_spread]false
 [c_10_cycledata_pos]1
 [c_10_cycledata_posdirty]true
-[c_10_cyc_1_val]0.051896549761295
-[c_10_cyc_1_dispval]free
-[c_10_cyc_1_dv]free
+[c_10_cyc_1_val]0.0
+[c_10_cyc_1_dispval]Free
+[c_10_cyc_1_dv]0.00
 [c_10_cyc_2_val]0.099310345947742
 [c_10_cyc_2_dispval]1/64
 [c_10_cyc_2_dv]1/64
@@ -6188,15 +6188,15 @@ WAK 0",
 [c_10_macroctl_cnt]0
 [c_10_eqband_cnt]0
 [g_1_fn]SC-Bg_02.png
-[g_1_x]168.0
-[g_1_y]128.0
+[g_1_x]0.0
+[g_1_y]0.0
 [g_1_w]750.0
 [g_1_h]128.0
 [g_1_stretchw]464
 [g_1_stretchh]152
 [g_1_scale]1
-[g_1_id]2819227647
-[g_1_grpid]3121348607
+[g_1_id]385482751
+[g_1_grpid]1138360319
 [g_1_gfxtype]0
 [g_1_font_idx]
 [g_1_font_name]
@@ -6221,15 +6221,15 @@ WAK 0",
 [g_1_stretchmode]2
 [g_1_edgesz]24
 [g_2_fn]
-[g_2_x]200.0
-[g_2_y]128.0
+[g_2_x]32.0
+[g_2_y]0.0
 [g_2_w]145.0
 [g_2_h]24.0
 [g_2_stretchw]145.0
 [g_2_stretchh]24.0
 [g_2_scale]1
-[g_2_id]2819227647
-[g_2_grpid]2009464831
+[g_2_id]385482751
+[g_2_grpid]235667455
 [g_2_gfxtype]1
 [g_2_font_idx]1
 [g_2_font_name]Calibri
