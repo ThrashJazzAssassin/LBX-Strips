@@ -1416,10 +1416,8 @@ Az-∑(ø\7ÄBLÜâ±ﬂhŒ\1¯˝ıÎ◊8÷÷÷\"\8Ë\4Xå˚\13?\2ÏŸ≥û\29\0¡K¯Èµ‹\"∂Åïï\21˜Ò„G∑ººÃ∑Ä
 [FXDATA]
 {{
 ["switchconvtab"]={2},
-["switchers"]={3},
-["fx"]={4},
-},
-{
+["fx"]={3},
+["switchers"]={4},
 },
 {
 },
@@ -1427,29 +1425,31 @@ Az-∑(ø\7ÄBLÜâ±ﬂhŒ\1¯˝ıÎ◊8÷÷÷\"\8Ë\4Xå˚\13?\2ÏŸ≥û\29\0¡K¯Èµ‹\"∂Åïï\21˜Ò„G∑ººÃ∑Ä
 [1]={5},
 },
 {
-["fxenabled"]=true,
-["fxguid"]="A43E53F4-E843-4CD6-BD94-CC2999BC6A97",
+},
+{
 ["fxchunk"]="BYPASS 0 0 0\
 <VST \"VST: ReaComp (cockos)\" reacomp.dll 0 \"\" 1919247213\
 bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==\
-776t3g3wrd4AAIA/AAAAAKabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPQAAAAAAAAAAAAAAAAAAgD8AAAAA\
+776t3g3wrd4AAIA/AAAAAKabxDsK16M8AAAAAAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPQAAAAAAAAAAAAAAAAAAAAAAAAAA\
 AAAQAAAA\
 >\
 FLOATPOS 49 279 510 389\
-FXID {A43E53F4-E843-4CD6-BD94-CC2999BC6A97}\
+FXID {969AB2D1-86A1-4710-A395-8220DDCF01BE}\
 WAK 0",
+["fxenabled"]=true,
+["fxguid"]="969AB2D1-86A1-4710-A395-8220DDCF01BE",
 },
 }
 [\FXDATA]
 [STRIPDATA]
 [surface_x]0.0
-[surface_y]1.0
+[surface_y]0.0
 [controls_count]17
 [graphics_count]2
-[c_1_cid]372375551
+[c_1_cid]3469213695
 [c_1_fxname]VST: ReaComp (cockos)
-[c_1_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_1_fxnum]2
+[c_1_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_1_fxnum]0
 [c_1_fxfound]true
 [c_1_param]0
 [c_1_param_info_name]Thresh
@@ -1463,10 +1463,10 @@ WAK 0",
 [c_1_knob_select]933
 [c_1_ctl_info_fn]Timb_Slider_Rearth_20158-128.png
 [c_1_ctl_info_frames]128
-[c_1_ctl_info_imageidx]27
+[c_1_ctl_info_imageidx]51
 [c_1_ctl_info_cellh]158
-[c_1_x]112
-[c_1_y]160
+[c_1_x]136.0
+[c_1_y]344.0
 [c_1_w]20.0
 [c_1_scale]1.0
 [c_1_show_paramname]true
@@ -1504,8 +1504,8 @@ WAK 0",
 [c_1_bypassbg_n]false
 [c_1_bypassbg_v]false
 [c_1_clickthrough]false
-[c_1_id]2219048959
-[c_1_grpid]3842899967
+[c_1_id]3523739647
+[c_1_grpid]3314286591
 [c_1_ctlcat]0
 [c_1_tracknum]
 [c_1_trackguid]
@@ -1539,10 +1539,10 @@ WAK 0",
 [c_1_rcmdata_cnt]0
 [c_1_macroctl_cnt]0
 [c_1_eqband_cnt]0
-[c_2_cid]1763835903
+[c_2_cid]2333343743
 [c_2_fxname]VST: ReaComp (cockos)
-[c_2_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_2_fxnum]2
+[c_2_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_2_fxnum]0
 [c_2_fxfound]true
 [c_2_param]1
 [c_2_param_info_name]Ratio
@@ -1556,10 +1556,10 @@ WAK 0",
 [c_2_knob_select]509
 [c_2_ctl_info_fn]Timb-NickMoritz_SmallKnob-03_32128.png
 [c_2_ctl_info_frames]128
-[c_2_ctl_info_imageidx]21
+[c_2_ctl_info_imageidx]2
 [c_2_ctl_info_cellh]32
-[c_2_x]160
-[c_2_y]208
+[c_2_x]184.0
+[c_2_y]392.0
 [c_2_w]32.0
 [c_2_scale]0.86
 [c_2_show_paramname]true
@@ -1597,8 +1597,8 @@ WAK 0",
 [c_2_bypassbg_n]false
 [c_2_bypassbg_v]false
 [c_2_clickthrough]false
-[c_2_id]2219048959
-[c_2_grpid]3842899967
+[c_2_id]3523739647
+[c_2_grpid]3314286591
 [c_2_ctlcat]0
 [c_2_tracknum]
 [c_2_trackguid]
@@ -1632,10 +1632,10 @@ WAK 0",
 [c_2_rcmdata_cnt]0
 [c_2_macroctl_cnt]0
 [c_2_eqband_cnt]0
-[c_3_cid]2594701311
+[c_3_cid]3288727551
 [c_3_fxname]VST: ReaComp (cockos)
-[c_3_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_3_fxnum]2
+[c_3_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_3_fxnum]0
 [c_3_fxfound]true
 [c_3_param]2
 [c_3_param_info_name]Attack
@@ -1649,10 +1649,10 @@ WAK 0",
 [c_3_knob_select]512
 [c_3_ctl_info_fn]Timb-NickMoritz_SmallKnob-05_32128.png
 [c_3_ctl_info_frames]128
-[c_3_ctl_info_imageidx]22
+[c_3_ctl_info_imageidx]52
 [c_3_ctl_info_cellh]32
-[c_3_x]256
-[c_3_y]160
+[c_3_x]280.0
+[c_3_y]344.0
 [c_3_w]32.0
 [c_3_scale]0.86
 [c_3_show_paramname]true
@@ -1690,8 +1690,8 @@ WAK 0",
 [c_3_bypassbg_n]false
 [c_3_bypassbg_v]false
 [c_3_clickthrough]false
-[c_3_id]2219048959
-[c_3_grpid]3842899967
+[c_3_id]3523739647
+[c_3_grpid]3314286591
 [c_3_ctlcat]0
 [c_3_tracknum]
 [c_3_trackguid]
@@ -1725,10 +1725,10 @@ WAK 0",
 [c_3_rcmdata_cnt]0
 [c_3_macroctl_cnt]0
 [c_3_eqband_cnt]0
-[c_4_cid]1861091327
+[c_4_cid]1846804479
 [c_4_fxname]VST: ReaComp (cockos)
-[c_4_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_4_fxnum]2
+[c_4_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_4_fxnum]0
 [c_4_fxfound]true
 [c_4_param]3
 [c_4_param_info_name]Release
@@ -1742,10 +1742,10 @@ WAK 0",
 [c_4_knob_select]512
 [c_4_ctl_info_fn]Timb-NickMoritz_SmallKnob-05_32128.png
 [c_4_ctl_info_frames]128
-[c_4_ctl_info_imageidx]22
+[c_4_ctl_info_imageidx]52
 [c_4_ctl_info_cellh]32
-[c_4_x]304.0
-[c_4_y]160.0
+[c_4_x]328.0
+[c_4_y]344.0
 [c_4_w]32.0
 [c_4_scale]0.86
 [c_4_show_paramname]true
@@ -1783,8 +1783,8 @@ WAK 0",
 [c_4_bypassbg_n]false
 [c_4_bypassbg_v]false
 [c_4_clickthrough]false
-[c_4_id]2219048959
-[c_4_grpid]3842899967
+[c_4_id]3523739647
+[c_4_grpid]3314286591
 [c_4_ctlcat]0
 [c_4_tracknum]
 [c_4_trackguid]
@@ -1818,10 +1818,10 @@ WAK 0",
 [c_4_rcmdata_cnt]0
 [c_4_macroctl_cnt]0
 [c_4_eqband_cnt]0
-[c_5_cid]2146828287
+[c_5_cid]371064831
 [c_5_fxname]VST: ReaComp (cockos)
-[c_5_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_5_fxnum]2
+[c_5_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_5_fxnum]0
 [c_5_fxfound]true
 [c_5_param]4
 [c_5_param_info_name]Pre-comp
@@ -1835,10 +1835,10 @@ WAK 0",
 [c_5_knob_select]512
 [c_5_ctl_info_fn]Timb-NickMoritz_SmallKnob-05_32128.png
 [c_5_ctl_info_frames]128
-[c_5_ctl_info_imageidx]22
+[c_5_ctl_info_imageidx]52
 [c_5_ctl_info_cellh]32
-[c_5_x]160.0
-[c_5_y]160.0
+[c_5_x]184.0
+[c_5_y]344.0
 [c_5_w]32.0
 [c_5_scale]0.86
 [c_5_show_paramname]true
@@ -1876,8 +1876,8 @@ WAK 0",
 [c_5_bypassbg_n]false
 [c_5_bypassbg_v]false
 [c_5_clickthrough]false
-[c_5_id]2219048959
-[c_5_grpid]3842899967
+[c_5_id]3523739647
+[c_5_grpid]3314286591
 [c_5_ctlcat]0
 [c_5_tracknum]
 [c_5_trackguid]
@@ -1911,10 +1911,10 @@ WAK 0",
 [c_5_rcmdata_cnt]0
 [c_5_macroctl_cnt]0
 [c_5_eqband_cnt]0
-[c_6_cid]3391619071
+[c_6_cid]3166961663
 [c_6_fxname]VST: ReaComp (cockos)
-[c_6_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_6_fxnum]2
+[c_6_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_6_fxnum]0
 [c_6_fxfound]true
 [c_6_param]14
 [c_6_param_info_name]Knee
@@ -1928,10 +1928,10 @@ WAK 0",
 [c_6_knob_select]509
 [c_6_ctl_info_fn]Timb-NickMoritz_SmallKnob-03_32128.png
 [c_6_ctl_info_frames]128
-[c_6_ctl_info_imageidx]21
+[c_6_ctl_info_imageidx]2
 [c_6_ctl_info_cellh]32
-[c_6_x]208
-[c_6_y]208
+[c_6_x]232.0
+[c_6_y]392.0
 [c_6_w]32.0
 [c_6_scale]0.86
 [c_6_show_paramname]true
@@ -1969,8 +1969,8 @@ WAK 0",
 [c_6_bypassbg_n]false
 [c_6_bypassbg_v]false
 [c_6_clickthrough]false
-[c_6_id]2219048959
-[c_6_grpid]3842899967
+[c_6_id]3523739647
+[c_6_grpid]3314286591
 [c_6_ctlcat]0
 [c_6_tracknum]
 [c_6_trackguid]
@@ -2004,10 +2004,10 @@ WAK 0",
 [c_6_rcmdata_cnt]0
 [c_6_macroctl_cnt]0
 [c_6_eqband_cnt]0
-[c_7_cid]62914559
+[c_7_cid]3094085631
 [c_7_fxname]VST: ReaComp (cockos)
-[c_7_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_7_fxnum]2
+[c_7_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_7_fxnum]0
 [c_7_fxfound]true
 [c_7_param]15
 [c_7_param_info_name]AutoMkUp
@@ -2021,10 +2021,10 @@ WAK 0",
 [c_7_knob_select]702
 [c_7_ctl_info_fn]TimbSM17_Switches07b.png
 [c_7_ctl_info_frames]2
-[c_7_ctl_info_imageidx]10
+[c_7_ctl_info_imageidx]18
 [c_7_ctl_info_cellh]19
-[c_7_x]304
-[c_7_y]336
+[c_7_x]328.0
+[c_7_y]536.0
 [c_7_w]26.0
 [c_7_scale]0.86
 [c_7_show_paramname]true
@@ -2062,8 +2062,8 @@ WAK 0",
 [c_7_bypassbg_n]false
 [c_7_bypassbg_v]false
 [c_7_clickthrough]false
-[c_7_id]2219048959
-[c_7_grpid]3842899967
+[c_7_id]3523739647
+[c_7_grpid]3314286591
 [c_7_ctlcat]0
 [c_7_tracknum]
 [c_7_trackguid]
@@ -2097,10 +2097,10 @@ WAK 0",
 [c_7_rcmdata_cnt]0
 [c_7_macroctl_cnt]0
 [c_7_eqband_cnt]0
-[c_8_cid]4057989119
+[c_8_cid]318767103
 [c_8_fxname]VST: ReaComp (cockos)
-[c_8_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_8_fxnum]2
+[c_8_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_8_fxnum]0
 [c_8_fxfound]true
 [c_8_param]17
 [c_8_param_info_name]ClsAttk
@@ -2114,10 +2114,10 @@ WAK 0",
 [c_8_knob_select]137
 [c_8_ctl_info_fn]NovLauConButtSmall.png
 [c_8_ctl_info_frames]2
-[c_8_ctl_info_imageidx]23
+[c_8_ctl_info_imageidx]53
 [c_8_ctl_info_cellh]32
-[c_8_x]256.0
-[c_8_y]216.0
+[c_8_x]280.0
+[c_8_y]400.0
 [c_8_w]32.0
 [c_8_scale]0.86
 [c_8_show_paramname]true
@@ -2132,7 +2132,7 @@ WAK 0",
 [c_8_textsize]0
 [c_8_textsizev]0
 [c_8_font]Calibri
-[c_8_val]1.0
+[c_8_val]0.0
 [c_8_mval]0
 [c_8_defval]0.0
 [c_8_maxdp]-1
@@ -2155,8 +2155,8 @@ WAK 0",
 [c_8_bypassbg_n]false
 [c_8_bypassbg_v]false
 [c_8_clickthrough]false
-[c_8_id]2219048959
-[c_8_grpid]3842899967
+[c_8_id]3523739647
+[c_8_grpid]3314286591
 [c_8_ctlcat]0
 [c_8_tracknum]
 [c_8_trackguid]
@@ -2190,10 +2190,10 @@ WAK 0",
 [c_8_rcmdata_cnt]0
 [c_8_macroctl_cnt]0
 [c_8_eqband_cnt]0
-[c_9_cid]4292083711
+[c_9_cid]1166016511
 [c_9_fxname]VST: ReaComp (cockos)
-[c_9_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_9_fxnum]2
+[c_9_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_9_fxnum]0
 [c_9_fxfound]true
 [c_9_param]16
 [c_9_param_info_name]AutoRel
@@ -2207,10 +2207,10 @@ WAK 0",
 [c_9_knob_select]137
 [c_9_ctl_info_fn]NovLauConButtSmall.png
 [c_9_ctl_info_frames]2
-[c_9_ctl_info_imageidx]23
+[c_9_ctl_info_imageidx]53
 [c_9_ctl_info_cellh]32
-[c_9_x]304.0
-[c_9_y]216.0
+[c_9_x]328.0
+[c_9_y]400.0
 [c_9_w]32.0
 [c_9_scale]0.86
 [c_9_show_paramname]true
@@ -2248,8 +2248,8 @@ WAK 0",
 [c_9_bypassbg_n]false
 [c_9_bypassbg_v]false
 [c_9_clickthrough]false
-[c_9_id]2219048959
-[c_9_grpid]3842899967
+[c_9_id]3523739647
+[c_9_grpid]3314286591
 [c_9_ctlcat]0
 [c_9_tracknum]
 [c_9_trackguid]
@@ -2283,10 +2283,10 @@ WAK 0",
 [c_9_rcmdata_cnt]0
 [c_9_macroctl_cnt]0
 [c_9_eqband_cnt]0
-[c_10_cid]3864133631
+[c_10_cid]3870687231
 [c_10_fxname]VST: ReaComp (cockos)
-[c_10_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_10_fxnum]2
+[c_10_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_10_fxnum]0
 [c_10_fxfound]true
 [c_10_param]7
 [c_10_param_info_name]Hipass
@@ -2300,10 +2300,10 @@ WAK 0",
 [c_10_knob_select]219
 [c_10_ctl_info_fn]SC_SliderH-01_(96x23-128fr).png
 [c_10_ctl_info_frames]128
-[c_10_ctl_info_imageidx]24
+[c_10_ctl_info_imageidx]54
 [c_10_ctl_info_cellh]23
-[c_10_x]192
-[c_10_y]272
+[c_10_x]216.0
+[c_10_y]464.0
 [c_10_w]96.0
 [c_10_scale]1.0
 [c_10_show_paramname]true
@@ -2319,7 +2319,7 @@ WAK 0",
 [c_10_textsizev]0
 [c_10_font]Calibri
 [c_10_val]0.0
-[c_10_mval]0.0
+[c_10_mval]0.0093921422460804
 [c_10_defval]0.0
 [c_10_maxdp]-1
 [c_10_dvaloffset]0
@@ -2341,8 +2341,8 @@ WAK 0",
 [c_10_bypassbg_n]false
 [c_10_bypassbg_v]false
 [c_10_clickthrough]false
-[c_10_id]2219048959
-[c_10_grpid]3842899967
+[c_10_id]3523739647
+[c_10_grpid]3314286591
 [c_10_ctlcat]0
 [c_10_tracknum]
 [c_10_trackguid]
@@ -2376,10 +2376,10 @@ WAK 0",
 [c_10_rcmdata_cnt]0
 [c_10_macroctl_cnt]0
 [c_10_eqband_cnt]0
-[c_11_cid]3047686143
+[c_11_cid]3670933503
 [c_11_fxname]VST: ReaComp (cockos)
-[c_11_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_11_fxnum]2
+[c_11_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_11_fxnum]0
 [c_11_fxfound]true
 [c_11_param]13
 [c_11_param_info_name]RMS size
@@ -2393,10 +2393,10 @@ WAK 0",
 [c_11_knob_select]219
 [c_11_ctl_info_fn]SC_SliderH-01_(96x23-128fr).png
 [c_11_ctl_info_frames]128
-[c_11_ctl_info_imageidx]24
+[c_11_ctl_info_imageidx]54
 [c_11_ctl_info_cellh]23
-[c_11_x]192
-[c_11_y]288
+[c_11_x]216.0
+[c_11_y]488.0
 [c_11_w]96.0
 [c_11_scale]1.0
 [c_11_show_paramname]true
@@ -2434,8 +2434,8 @@ WAK 0",
 [c_11_bypassbg_n]false
 [c_11_bypassbg_v]false
 [c_11_clickthrough]false
-[c_11_id]2219048959
-[c_11_grpid]3842899967
+[c_11_id]3523739647
+[c_11_grpid]3314286591
 [c_11_ctlcat]0
 [c_11_tracknum]
 [c_11_trackguid]
@@ -2469,10 +2469,10 @@ WAK 0",
 [c_11_rcmdata_cnt]0
 [c_11_macroctl_cnt]0
 [c_11_eqband_cnt]0
-[c_12_cid]597557247
+[c_12_cid]1907884031
 [c_12_fxname]VST: ReaComp (cockos)
-[c_12_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_12_fxnum]2
+[c_12_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_12_fxnum]0
 [c_12_fxfound]true
 [c_12_param]22
 [c_12_param_info_name]Open GUI
@@ -2486,10 +2486,10 @@ WAK 0",
 [c_12_knob_select]235
 [c_12_ctl_info_fn]SimpleBox_4816.png
 [c_12_ctl_info_frames]1
-[c_12_ctl_info_imageidx]18
+[c_12_ctl_info_imageidx]55
 [c_12_ctl_info_cellh]16
-[c_12_x]352
-[c_12_y]112
+[c_12_x]376.0
+[c_12_y]296.0
 [c_12_w]48.0
 [c_12_scale]0.71
 [c_12_show_paramname]true
@@ -2504,8 +2504,8 @@ WAK 0",
 [c_12_textsize]0
 [c_12_textsizev]0
 [c_12_font]Calibri
-[c_12_val]0
-[c_12_mval]0
+[c_12_val]1
+[c_12_mval]1
 [c_12_defval]-1.0
 [c_12_maxdp]-1
 [c_12_dvaloffset]0
@@ -2527,8 +2527,8 @@ WAK 0",
 [c_12_bypassbg_n]false
 [c_12_bypassbg_v]false
 [c_12_clickthrough]false
-[c_12_id]2219048959
-[c_12_grpid]3842899967
+[c_12_id]3523739647
+[c_12_grpid]3314286591
 [c_12_ctlcat]14
 [c_12_tracknum]
 [c_12_trackguid]
@@ -2562,10 +2562,10 @@ WAK 0",
 [c_12_rcmdata_cnt]0
 [c_12_macroctl_cnt]0
 [c_12_eqband_cnt]0
-[c_13_cid]2561933311
+[c_13_cid]3830185983
 [c_13_fxname]VST: ReaComp (cockos)
-[c_13_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_13_fxnum]2
+[c_13_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_13_fxnum]0
 [c_13_fxfound]true
 [c_13_param]10
 [c_13_param_info_name]Dry
@@ -2579,10 +2579,10 @@ WAK 0",
 [c_13_knob_select]933
 [c_13_ctl_info_fn]Timb_Slider_Rearth_20158-128.png
 [c_13_ctl_info_frames]128
-[c_13_ctl_info_imageidx]27
+[c_13_ctl_info_imageidx]51
 [c_13_ctl_info_cellh]158
-[c_13_x]384
-[c_13_y]160
+[c_13_x]408.0
+[c_13_y]344.0
 [c_13_w]20.0
 [c_13_scale]1.0
 [c_13_show_paramname]true
@@ -2597,7 +2597,7 @@ WAK 0",
 [c_13_textsize]0
 [c_13_textsizev]0
 [c_13_font]Calibri
-[c_13_val]0.0
+[c_13_val]1.5811387754638e-008
 [c_13_mval]7.87179690581e-009
 [c_13_defval]1.5811387754638e-008
 [c_13_maxdp]-1
@@ -2620,8 +2620,8 @@ WAK 0",
 [c_13_bypassbg_n]false
 [c_13_bypassbg_v]false
 [c_13_clickthrough]false
-[c_13_id]2219048959
-[c_13_grpid]3842899967
+[c_13_id]3523739647
+[c_13_grpid]3314286591
 [c_13_ctlcat]0
 [c_13_tracknum]
 [c_13_trackguid]
@@ -2655,10 +2655,10 @@ WAK 0",
 [c_13_rcmdata_cnt]0
 [c_13_macroctl_cnt]0
 [c_13_eqband_cnt]0
-[c_14_cid]2212888575
+[c_14_cid]3018981375
 [c_14_fxname]VST: ReaComp (cockos)
-[c_14_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_14_fxnum]2
+[c_14_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_14_fxnum]0
 [c_14_fxfound]true
 [c_14_param]11
 [c_14_param_info_name]Wet
@@ -2672,10 +2672,10 @@ WAK 0",
 [c_14_knob_select]933
 [c_14_ctl_info_fn]Timb_Slider_Rearth_20158-128.png
 [c_14_ctl_info_frames]128
-[c_14_ctl_info_imageidx]27
+[c_14_ctl_info_imageidx]51
 [c_14_ctl_info_cellh]158
-[c_14_x]352
-[c_14_y]160
+[c_14_x]376.0
+[c_14_y]344.0
 [c_14_w]20.0
 [c_14_scale]1.0
 [c_14_show_paramname]true
@@ -2713,8 +2713,8 @@ WAK 0",
 [c_14_bypassbg_n]false
 [c_14_bypassbg_v]false
 [c_14_clickthrough]false
-[c_14_id]2219048959
-[c_14_grpid]3842899967
+[c_14_id]3523739647
+[c_14_grpid]3314286591
 [c_14_ctlcat]0
 [c_14_tracknum]
 [c_14_trackguid]
@@ -2748,10 +2748,10 @@ WAK 0",
 [c_14_rcmdata_cnt]0
 [c_14_macroctl_cnt]0
 [c_14_eqband_cnt]0
-[c_15_cid]3437101055
+[c_15_cid]3870556159
 [c_15_fxname]VST: ReaComp (cockos)
-[c_15_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_15_fxnum]2
+[c_15_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_15_fxnum]0
 [c_15_fxfound]true
 [c_15_param]6
 [c_15_param_info_name]Lowpass
@@ -2765,10 +2765,10 @@ WAK 0",
 [c_15_knob_select]219
 [c_15_ctl_info_fn]SC_SliderH-01_(96x23-128fr).png
 [c_15_ctl_info_frames]128
-[c_15_ctl_info_imageidx]24
+[c_15_ctl_info_imageidx]54
 [c_15_ctl_info_cellh]23
-[c_15_x]192
-[c_15_y]256
+[c_15_x]216.0
+[c_15_y]440.0
 [c_15_w]96.0
 [c_15_scale]1.0
 [c_15_show_paramname]true
@@ -2784,7 +2784,7 @@ WAK 0",
 [c_15_textsizev]0
 [c_15_font]Calibri
 [c_15_val]1.0
-[c_15_mval]1.0
+[c_15_mval]0.063741427763875
 [c_15_defval]1.0
 [c_15_maxdp]-1
 [c_15_dvaloffset]0
@@ -2806,8 +2806,8 @@ WAK 0",
 [c_15_bypassbg_n]false
 [c_15_bypassbg_v]false
 [c_15_clickthrough]false
-[c_15_id]2219048959
-[c_15_grpid]3842899967
+[c_15_id]3523739647
+[c_15_grpid]3314286591
 [c_15_ctlcat]0
 [c_15_tracknum]
 [c_15_trackguid]
@@ -2841,10 +2841,10 @@ WAK 0",
 [c_15_rcmdata_cnt]0
 [c_15_macroctl_cnt]0
 [c_15_eqband_cnt]0
-[c_16_cid]4118151167
+[c_16_cid]2713190399
 [c_16_fxname]VST: ReaComp (cockos)
-[c_16_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_16_fxnum]2
+[c_16_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_16_fxnum]0
 [c_16_fxfound]true
 [c_16_param]19
 [c_16_param_info_name]Bypass
@@ -2858,10 +2858,10 @@ WAK 0",
 [c_16_knob_select]10
 [c_16_ctl_info_fn]Concerto-OnOff16x.png
 [c_16_ctl_info_frames]2
-[c_16_ctl_info_imageidx]42
+[c_16_ctl_info_imageidx]56
 [c_16_ctl_info_cellh]16
-[c_16_x]400
-[c_16_y]112
+[c_16_x]424.0
+[c_16_y]296.0
 [c_16_w]16.0
 [c_16_scale]1.0
 [c_16_show_paramname]false
@@ -2880,7 +2880,7 @@ WAK 0",
 [c_16_mval]0
 [c_16_defval]0.0
 [c_16_maxdp]-1
-[c_16_dvaloffset]
+[c_16_dvaloffset]0
 [c_16_minov]
 [c_16_maxov]
 [c_16_scalemodex]8
@@ -2894,13 +2894,13 @@ WAK 0",
 [c_16_hidden]false
 [c_16_switcherid]
 [c_16_switcher]
-[c_16_noss]
+[c_16_noss]false
 [c_16_bypassbg_c]false
 [c_16_bypassbg_n]false
 [c_16_bypassbg_v]false
 [c_16_clickthrough]false
-[c_16_id]-16777215
-[c_16_grpid]-16777215
+[c_16_id]3523739647
+[c_16_grpid]3314286591
 [c_16_ctlcat]0
 [c_16_tracknum]
 [c_16_trackguid]
@@ -2921,13 +2921,23 @@ WAK 0",
 [c_16_cycledata_spread]false
 [c_16_cycledata_pos]1
 [c_16_cycledata_posdirty]false
+[c_16_midiout_output]
+[c_16_midiout_mchan]1
+[c_16_midiout_msg3]0
+[c_16_midiout_msgtype]4
+[c_16_midiout_osc]
+[c_16_midiout_vmin]0
+[c_16_midiout_vmax]127
+[c_16_midiout_focus]1
+[c_16_midiout_updategfx]false
+[c_16_midiout_onmu]false
 [c_16_rcmdata_cnt]0
 [c_16_macroctl_cnt]0
 [c_16_eqband_cnt]0
-[c_17_cid]4067950591
+[c_17_cid]1303379967
 [c_17_fxname]VST: ReaComp (cockos)
-[c_17_fxguid]{A43E53F4-E843-4CD6-BD94-CC2999BC6A97}
-[c_17_fxnum]2
+[c_17_fxguid]{969AB2D1-86A1-4710-A395-8220DDCF01BE}
+[c_17_fxnum]0
 [c_17_fxfound]true
 [c_17_param]12
 [c_17_param_info_name]PreviewF
@@ -2941,10 +2951,10 @@ WAK 0",
 [c_17_knob_select]702
 [c_17_ctl_info_fn]TimbSM17_Switches07b.png
 [c_17_ctl_info_frames]2
-[c_17_ctl_info_imageidx]10
+[c_17_ctl_info_imageidx]18
 [c_17_ctl_info_cellh]19
-[c_17_x]304
-[c_17_y]320
+[c_17_x]328.0
+[c_17_y]520.0
 [c_17_w]26.0
 [c_17_scale]0.86
 [c_17_show_paramname]true
@@ -2963,7 +2973,7 @@ WAK 0",
 [c_17_mval]0
 [c_17_defval]0.0
 [c_17_maxdp]-1
-[c_17_dvaloffset]
+[c_17_dvaloffset]0
 [c_17_minov]
 [c_17_maxov]
 [c_17_scalemodex]8
@@ -2977,13 +2987,13 @@ WAK 0",
 [c_17_hidden]false
 [c_17_switcherid]
 [c_17_switcher]
-[c_17_noss]
+[c_17_noss]false
 [c_17_bypassbg_c]false
 [c_17_bypassbg_n]false
 [c_17_bypassbg_v]false
 [c_17_clickthrough]false
-[c_17_id]-16777215
-[c_17_grpid]-16777215
+[c_17_id]3523739647
+[c_17_grpid]3314286591
 [c_17_ctlcat]0
 [c_17_tracknum]
 [c_17_trackguid]
@@ -3004,19 +3014,29 @@ WAK 0",
 [c_17_cycledata_spread]false
 [c_17_cycledata_pos]1
 [c_17_cycledata_posdirty]false
+[c_17_midiout_output]
+[c_17_midiout_mchan]1
+[c_17_midiout_msg3]0
+[c_17_midiout_msgtype]4
+[c_17_midiout_osc]
+[c_17_midiout_vmin]0
+[c_17_midiout_vmax]127
+[c_17_midiout_focus]1
+[c_17_midiout_updategfx]false
+[c_17_midiout_onmu]false
 [c_17_rcmdata_cnt]0
 [c_17_macroctl_cnt]0
 [c_17_eqband_cnt]0
 [g_1_fn]greyembose.png
-[g_1_x]80
-[g_1_y]96
+[g_1_x]104.0
+[g_1_y]280.0
 [g_1_w]128.0
 [g_1_h]128.0
 [g_1_stretchw]352
-[g_1_stretchh]272
+[g_1_stretchh]288
 [g_1_scale]1
-[g_1_id]2219048959
-[g_1_grpid]2494300159
+[g_1_id]3523739647
+[g_1_grpid]2920415231
 [g_1_gfxtype]0
 [g_1_font_idx]
 [g_1_font_name]
@@ -3041,21 +3061,21 @@ WAK 0",
 [g_1_stretchmode]2
 [g_1_edgesz]18
 [g_2_fn]
-[g_2_x]208
-[g_2_y]112
+[g_2_x]232.0
+[g_2_y]296.0
 [g_2_w]88.0
 [g_2_h]27.0
 [g_2_stretchw]88.0
 [g_2_stretchh]27.0
 [g_2_scale]1
-[g_2_id]-16777215
-[g_2_grpid]-16777215
+[g_2_id]3523739647
+[g_2_grpid]3314286591
 [g_2_gfxtype]1
 [g_2_font_idx]1
 [g_2_font_name]Calibri
 [g_2_font_size]27.5
 [g_2_font_bold]false
-[g_2_font_italics]nil
+[g_2_font_italics]false
 [g_2_font_underline]false
 [g_2_font_shadow]true
 [g_2_font_shadowx]1
