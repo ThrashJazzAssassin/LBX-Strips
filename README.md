@@ -1,3 +1,5 @@
+Please also check out my utility for making knobs https://thrashjazzassassin.github.io/LBX_Stripper_KNB_Util/
+
 # LBX-Strips
 
 ![strips](https://github.com/ThrashJazzAssassin/LBX-Strips/blob/master/TJA%20LBX%20Strips.PNG?raw=true)
