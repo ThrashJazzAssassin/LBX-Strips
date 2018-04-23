@@ -1,7 +1,6 @@
 desc:MIDI Note to Host Parameter - All Octaves to 1 octave
 //author:Kevin Morrison (ThrashJazzAssassin)
 
-slider1:0<0,6,1>-Octave
 slider2:0<0,127,1>C
 slider3:0<0,127,1>C#
 slider4:0<0,127,1>D
@@ -23,11 +22,11 @@ noteOff = $x80;
 while (midirecv(offset,msg1,msg2,msg3)) (
   noteStatus = msg1 & $xF0;
   
-  noteStatus == noteOn && msg2 >= 12*slider1 && msg3 > 0 ? (
-    slider(msg2%12+2-(12*slider1)) = msg3;
+  noteStatus == noteOn && msg3 > 0 ? (
+    slider(msg2%12+2) = 127;
   ):
-  (noteStatus == noteOff || (noteStatus == noteOn && msg3 == 0)) && msg2 >= 12*slider1 ? (
-    slider(msg2%12+2-(12*slider1)) = 0;
+  (noteStatus == noteOff || (noteStatus == noteOn && msg3 == 0)) ? (
+    slider(msg2%12+2) = 0;
   );
   midisend(offset,msg1,msg2,msg3);
 )
