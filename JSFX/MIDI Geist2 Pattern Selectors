@@ -1,0 +1,55 @@
+desc:Geist Pattern Selectors TJA
+
+slider1:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 1
+slider2:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 2
+slider3:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 3
+slider4:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 4
+slider5:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 5
+slider6:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 6
+slider7:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 7
+slider8:0<0,24,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24}>Engine 8
+slider9:0<0,24,1{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71}>Scene
+
+@init
+noteOn = $x90; // note statusbyte
+ext_noinit = 1;
+
+@slider
+trig = 1;
+
+@block
+trig ? (
+  i = 0;
+  loop (8,
+    val[i] !== slider(1+i) ? (
+      val[i] = slider(1+i);
+      midisend(offset, noteOn+i, val[i]+12, 127);
+      midisend(offset, noteOn+i, val[i]+12, 0);
+    );
+    i += 1;
+  );
+
+  scene !== slider9 ? (
+    scene = slider9;
+    midisend(offset, noteOn+10, scene, 127);
+    midisend(offset, noteOn+10, scene, 0);
+  );
+  trig = 0;
+);
+
+while (midirecv(offset,msg1,msg2,msg3)) (
+  noteStatus = msg1 & $xF0; // strip channel info
+  channel = msg1 & $x0F; // strip event type
+  currentNote = msg2;
+  
+  // Update engine sliders from MIDI
+  noteStatus == noteOn && channel < 8 && currentNote > 11 && currentNote < 36 ? (
+    slider(channel+1) = currentNote-12;
+  );
+  
+  // Update scene slider from MIDI
+  noteStatus == noteOn && channel == 10 ? (
+    slider9 = currentNote;
+  );
+  midisend(offset,msg1,msg2,msg3);
+);
