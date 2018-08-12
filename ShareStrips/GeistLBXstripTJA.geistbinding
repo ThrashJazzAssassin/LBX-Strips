@@ -1,0 +1,350 @@
+<root>
+    <BindingMap name="BindingMap" HostBindingCount0="1" HostBindingCount1="1" HostBindingCount2="1" HostBindingCount3="1" HostBindingCount4="1" HostBindingCount5="1" HostBindingCount6="1" HostBindingCount7="1" HostBindingCount8="1" HostBindingCount9="1" HostBindingCount10="1" HostBindingCount11="1" HostBindingCount12="1" HostBindingCount13="1" HostBindingCount14="1" HostBindingCount15="1" HostBindingCount16="1" HostBindingCount17="1" HostBindingCount18="1" HostBindingCount19="1" HostBindingCount20="1" HostBindingCount21="1" HostBindingCount22="1" HostBindingCount23="1">
+        <VObjectArray name="HostParameters" count="32">
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="0.776471" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="1" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+            <VValue type="float" value="0" />
+        </VObjectArray>
+        <Binding name="Auto0Binding0" Min="0" Max="1" MIDI="false" MajorIndex="0" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 1" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="0" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto1Binding0" Min="0" Max="1" MIDI="false" MajorIndex="1" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 2" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="1" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto2Binding0" Min="0" Max="1" MIDI="false" MajorIndex="2" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 3" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="2" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto3Binding0" Min="0" Max="1" MIDI="false" MajorIndex="3" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 4" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="3" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto4Binding0" Min="0" Max="1" MIDI="false" MajorIndex="4" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 5" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="4" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto5Binding0" Min="0" Max="1" MIDI="false" MajorIndex="5" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 6" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="5" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto6Binding0" Min="0" Max="1" MIDI="false" MajorIndex="6" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 7" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="6" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto7Binding0" Min="0" Max="1" MIDI="false" MajorIndex="7" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Engine 8" />
+            <FixedString name="Name" string="Gain" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="7" PadIndex="-1" LayerIndex="-1" PatternIndex="-1" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setEngineGain</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Continuous" />
+        </Binding>
+        <Binding name="Auto8Binding0" Min="0" Max="1" MIDI="false" MajorIndex="8" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 1 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="0" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto9Binding0" Min="0" Max="1" MIDI="false" MajorIndex="9" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 2 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="1" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto10Binding0" Min="0" Max="1" MIDI="false" MajorIndex="10" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 3 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="2" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto11Binding0" Min="0" Max="1" MIDI="false" MajorIndex="11" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 4 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="3" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto12Binding0" Min="0" Max="1" MIDI="false" MajorIndex="12" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 5 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="4" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto13Binding0" Min="0" Max="1" MIDI="false" MajorIndex="13" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 6 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="5" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto14Binding0" Min="0" Max="1" MIDI="false" MajorIndex="14" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 7 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="6" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto15Binding0" Min="0" Max="1" MIDI="false" MajorIndex="15" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 8 pattern power" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="7" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_setPatternPowerState</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="bool" value="false" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto16Binding0" Min="0" Max="1" MIDI="false" MajorIndex="16" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 1 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="0" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto17Binding0" Min="0" Max="1" MIDI="false" MajorIndex="17" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 2 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="1" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto18Binding0" Min="0" Max="1" MIDI="false" MajorIndex="18" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 3 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="2" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto19Binding0" Min="0" Max="1" MIDI="false" MajorIndex="19" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 4 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="3" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto20Binding0" Min="0" Max="1" MIDI="false" MajorIndex="20" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 5 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="4" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto21Binding0" Min="0" Max="1" MIDI="false" MajorIndex="21" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 6 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="5" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto22Binding0" Min="0" Max="1" MIDI="false" MajorIndex="22" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 7 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="6" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+        <Binding name="Auto23Binding0" Min="0" Max="1" MIDI="false" MajorIndex="23" MinorIndex="-1" TargetMode="false" EnterTargetMode="true" EditorOnly="false">
+            <FixedString name="Path" string="Global" />
+            <FixedString name="Name" string="Engine 8 solo" />
+            <VString name="MessageStuffer">Binding::StuffToValue0</VString>
+            <VString name="MessagePopper">Binding::GetValueFromValue0</VString>
+            <Message name="MessagePrototype" EngineIndex="7" PadIndex="-1" LayerIndex="-1" PatternIndex="-2" TrackIndex="-1" StepIndex="-1">
+                <VString name="Type">e_soloEngine</VString>
+                <VValue name="MessageValue0" type="unknown" />
+                <VValue name="MessageValue1" type="unknown" />
+                <VValue name="MessageValue2" type="unknown" />
+            </Message>
+            <VString name="Type" string="Momentary" />
+        </Binding>
+    </BindingMap>
+</root>
