@@ -14,7 +14,7 @@ slider11:0<0,127,1>A
 slider12:0<0,127,1>A#
 slider13:0<0,127,1>B
 
-slider15:0<0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>MIDI Bus
+slider15:0<0,15,1{All,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>MIDI Bus
 slider16:0<0,15,1{All,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>MIDI Channel
 
 @init
@@ -24,7 +24,7 @@ noteOff = $x80;
 
 @block
 while (midirecv(offset,msg1,msg2,msg3)) (
-  midi_bus == slider15 ? (
+  midi_bus == slider15-1 || slider15 == 0 ? (
     noteStatus = msg1 & $xF0;
     channel = msg1 & $x0F;
     
