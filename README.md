@@ -10,6 +10,8 @@ Copy contents of Graphics folder to REAPER's Scripts\LBX\LBXCS_resources\strips\
 
 Install the JSFX into REAPER's /EFFECTS/ folder
 
+![strips6](https://github.com/ThrashJazzAssassin/LBX-Strips/blob/master/TJA%20LBX%20Strips5.PNG?raw=true)
+![strips7](https://github.com/ThrashJazzAssassin/LBX-Strips/blob/master/TJA%20LBX%20Strips6.PNG?raw=true)
 ![strips6](https://github.com/ThrashJazzAssassin/LBX-Strips/blob/master/TJA%20LBX%20Strips3.PNG?raw=true)
 ![strips7](https://github.com/ThrashJazzAssassin/LBX-Strips/blob/master/TJA%20LBX%20Strips4.PNG?raw=true)
 ![strips](https://github.com/ThrashJazzAssassin/LBX-Strips/blob/master/TJA%20LBX%20Strips.PNG?raw=true)
