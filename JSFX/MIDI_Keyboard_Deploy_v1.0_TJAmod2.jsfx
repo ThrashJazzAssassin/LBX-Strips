@@ -1,0 +1,216 @@
+// KeyBoard_Deploy_v1.0, Xackley 5-10-2008
+//Updated with better Midi Channel In descriptions 5-18-2008
+//https://forum.cockos.com/showthread.php?t=21222
+
+desc:MIDI Keyboard Splitter, with Xackley Zero Tricks & TJAmods2
+
+slider1:0<0,15,1{0 All,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>MIDI Channel In
+slider2:3<0,15,1{Block Input Channel - Just Notes to New Channels,Pass Input Channel - Just Notes to New Channels,Pass Input - Send Notes & CC to New Channels,Block Input - Send Notes & CC to New Channels}>Original
+
+slider10:1<0,15,1{0 Set Range,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Ouput MIDI Channel A
+slider11:midi_busA=0<0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Output MIDI Bus A
+slider12:1<0,127,1>Minimum Note A
+slider13:127<1,127,1>Maximum Note A
+slider14:0<-36,36,1>Transpose A
+slider15:0<0,127,1{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127}>Bank A
+slider16:0<0,127,1{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127}>Program A
+
+
+slider20:2<0,15,1{0 Set Range,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Ouput MIDI Channel B
+slider21:midi_busB=0<0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Output MIDI Bus B
+slider22:127<0,127,1>Minimum Note B
+slider23:1<1,127,1>Maximum Note B
+slider24:0<-36,36,1>Transpose B
+slider25:0<0,127,1{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127}>Bank B
+slider26:0<0,127,1{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127}>Program B
+
+
+slider30:3<0,15,1{0 Set Range,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Ouput MIDI Channel C
+slider31:midi_busC=0<0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>Output MIDI Bus C
+slider32:127<0,127,1>Minimum Note C
+slider33:1<1,127,1>Maximum Note C
+slider34:0<-36,36,1>Transpose C
+slider35:0<0,127,1{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127}>Bank C
+slider36:0<0,127,1{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127}>Program C
+
+in_pin:none
+out_pin:none
+
+@init
+ext_midi_bus = 1;
+ext_noinit = 1 ;
+// statusbytes
+noteOn = $x90; 
+noteOff = $x80;
+statBank = $xB0;
+statProgram = $xC0;
+
+//arrays
+bank = 0;
+prog = 16;
+
+noteTranA = $x80;
+noteTranB = $x100;
+noteTranC = $x180;
+noteMinA = $x200;
+noteMaxA = $x280;
+noteMinB = $x300;
+noteMaxB = $x380;
+noteMinC = $x400;
+noteMaxC = $x480;
+noteChanA = $x500;
+noteBusA = $x580;
+noteChanB = $x600;
+noteBusB = $x680;
+noteChanC = $x700;
+noteBusC = $x780;
+
+chanA= slider10 -1;
+chanB= slider20 -1;
+chanC= slider30 -1;
+
+@slider
+chanA= slider10 -1;
+chanB= slider20 -1;
+chanC= slider30 -1;
+
+slidermove = 1 ;
+sendBankPatch = 1;
+
+PassC = slider2==2 || slider2==3;
+PassN = slider2==1 || slider2==2;
+
+@block
+while ( midirecv(ts,msg1,msg23)) (
+  noteStatus = msg1 & $xF0; // strip channel info
+  m = msg1 & 240;
+  channel = msg1 & 15;
+  vel = (msg23/256)|0;
+  note = msg23 & 127;
+
+  passN ? midisend(ts,msg1,msg23);
+
+  OKchannel = channel==(slider1-1) || slider1==0;
+  
+  //AAAAAAAAAAAAAAAAAAA
+  slider10 && OKChannel ? ( 
+    midi_bus = midi_busA;
+    
+    //NoteOn
+    m == noteOn && vel>0 ? (
+      noteTranA[note] = slider14;
+      noteMinA[note]  = slider12;
+      noteMaxA[note]  = slider13;
+      noteChanA[note] = chanA;
+      noteBusA[note]  = midi_busA;
+      note >= slider12 && note <= slider13 ? (
+        noteA = note + slider14;                   
+        midisend(ts,m + chanA,noteA|(vel*256));
+      );
+    ):
+    
+    //NoteOff
+    m == noteOff || (m==noteOn && vel==0) ?  (
+      midi_bus = noteBusA[note];
+      note >= noteMinA[note] && note <= noteMaxA[note] ? (
+        offChanA = noteChanA[note];
+        noteA = note + noteTranA[note];
+        midisend(ts,m + offChanA,noteA|(vel*256));
+      );
+    ):(
+    passC ? midisend(ts,m + chanA,msg23);
+    );
+  );
+  
+  //BBBBBBBBBBBBBBBBBBB
+  slider20 && OKChannel ? ( 
+    midi_bus = midi_busB;
+    
+    //NoteOn
+    m == noteOn && vel>0 ? (
+      noteTranB[note] = slider24;
+      noteMinB[note]  = slider22;
+      noteMaxB[note]  = slider23;
+      noteChanB[note] = chanB;
+      noteBusB[note]  = midi_busB;
+      note >= slider22 && note <= slider23 ? (
+        noteB = note + slider24;                   
+        midisend(ts,m + chanB,noteB|(vel*256));
+      );
+    ):
+    
+    //NoteOff
+    m == noteOff || (m==noteOn && vel==0) ?  (
+    midi_bus = noteBusB[note];
+      note >= noteMinB[note] && note <= noteMaxB[note] ? (
+        offChanB = noteChanB[note];
+        noteB = note + noteTranB[note];                   
+        midisend(ts,m + offChanB,noteB|(vel*256));
+      );
+    ):(
+    passC ? midisend(ts,m + chanB,msg23);
+    );
+  );
+  
+  
+  //CCCCCCCCCCCCCCCCCCC
+  slider30 && OKChannel ? ( 
+    midi_bus = midi_busC;
+    
+    //NoteOn
+    m == noteOn && vel>0 ? (
+    noteTranC[note] = slider34;
+    noteMinC[note] = slider32;
+    noteMaxC[note] = slider33;
+    noteChanC[note] = chanC;
+    noteBusC[note]  = midi_busC;
+      note >= slider32 && note <= slider33 ? (
+        noteC = note + slider34;                   
+        midisend(ts,m + chanC,noteC|(vel*256));
+      );
+    ):
+    
+    //NoteOff
+    m == noteOff || (m==noteOn && vel==0) ?  (
+      midi_bus = noteBusC[note];
+      note >= noteMinC[note] && note <= noteMaxC[note] ? (
+        offChanC = noteChanC[note];
+        noteC = note + noteTranC[note];                   
+        midisend(ts,m + offChanC,noteC|(vel*256));
+      );
+    ):(
+    passC ? midisend(ts,m + chanC,msg23);
+    );
+  );
+  
+  //Set Range
+  slider10 == 0 && m == noteOn ? (
+    slider12 = min(slider12,note);
+    slider13 = max(slider13,note);
+  );
+  slider20 == 0 && m == noteOn ? (
+    slider22 = min(slider22,note);
+    slider23 = max(slider23,note);
+  );
+  slider30 == 0 && m == noteOn ? (
+    slider32 = min(slider32,note);
+    slider33 = max(slider33,note);
+  );
+);
+
+
+  sendBankPatch ? (
+    i = 0;
+    loop (3,
+      midi_bus = slider((i*10)+11);
+      bank[i] != slider((i*10)+15) || prog[i] != slider((i*10)+16) ? (
+        bank[i] = slider((i*10)+15);
+        prog[i] = slider((i*10)+16);
+        midisend(0,statBank+slider((i*10)+10)-1,0|bank[i]*256);
+        midisend(0,statProgram+slider((i*10)+10)-1,prog[i]);
+      );
+      i += 1;
+    );
+    sendBankPatch = 0;
+  );
+
