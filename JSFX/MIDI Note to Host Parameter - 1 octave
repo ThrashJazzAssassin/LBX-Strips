@@ -1,4 +1,5 @@
-desc:MIDI Note to Host Parameter - All Octaves to 1 octave
+desc:MIDI Note to Host Parameter - All Octaves to 1 octave TJA
+//
 //author:Kevin Morrison (ThrashJazzAssassin)
 
 slider2:0<0,127,1>C
@@ -19,14 +20,19 @@ slider16:0<0,15,1{All,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>MIDI Channel
 
 @init
 ext_midi_bus=1;
-noteOn = $x90;
+noteOn  = $x90;
 noteOff = $x80;
+cc      = $xB0;
+
+function resetSliders()(i=0;loop(12,slider(i+2)=0;i+=1;););
 
 @block
 while (midirecv(offset,msg1,msg2,msg3)) (
   midi_bus == slider15-1 || slider15 == 0 ? (
     noteStatus = msg1 & $xF0;
     channel = msg1 & $x0F;
+    
+    noteStatus == cc && msg2 == 123 ? resetSliders();
     
     channel == slider16-1 ||slider16 == 0 ? (
       noteStatus == noteOn && msg3 > 0 ? (
