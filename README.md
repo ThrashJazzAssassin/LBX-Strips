@@ -1,5 +1,3 @@
-Please also check out my utility to help make LBX Stripper knobs https://thrashjazzassassin.github.io/LBX_Stripper_KNB_Util/
-
 # LBX-Strips
 LBX Stripper is a script for REAPER, info here https://forum.cockos.com/showthread.php?t=182233
 
